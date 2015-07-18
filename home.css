@@ -1,0 +1,35 @@
+/*Header design*/
+#header-background{
+  width: 80%;
+  height: 8em;
+  z-index: 1;
+  float: right;
+  position: relative;
+}
+#header-title{
+  width: 20%;
+  height: 8em;
+  background-color: #161616;
+  z-index: 2;
+  color: white;
+  position: relative;
+  margin-bottom: 8em;
+}
+.embold-text{
+  font-size: 1.5em;
+  font-family: bitter;
+}
+.medium-emboldment{
+  font-size: 1.3em;
+  font-family: bitter;
+}
+.shadow{
+  box-shadow: 0em 1em 2em 0em grey;
+}
+/*End of header design*/
+/*Body content*/
+body{
+background-color: antiquewhite;
+}
+
+
