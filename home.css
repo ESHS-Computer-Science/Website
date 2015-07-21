@@ -31,5 +31,20 @@
 body{
 background-color: antiquewhite;
 }
-
-
+/*Carousel*/
+.border{
+  margin-top: -8em;
+}
+.carousel-inner .item img{
+height: 50em;
+width:100%;
+}
+#float-right{
+  float: right;
+}
+.navbar-color{
+background-color: #0095FF;
+color: red;
+font-family: bitter;
+font-size: 1.1em;
+}
