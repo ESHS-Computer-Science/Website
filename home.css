@@ -1,3 +1,5 @@
+
+
 /*Header design*/
 #header-background{
   width: 80%;
@@ -47,4 +49,11 @@ background-color: #0095FF;
 color: red;
 font-family: bitter;
 font-size: 1.1em;
+}
+/*Announcements*/
+.content-title{
+  text-align: center;
+  font-size: 2em;
+  font-family: bitter;
+  color: black;  
 }
