@@ -1,0 +1,132 @@
+
+
+/*Header design*/
+#header-background{
+  width: 80%;
+  height: 8em;
+  z-index: 1;
+  float: right;
+  position: relative;
+}
+#header-title{
+  width: 20%;
+  height: 8em;
+  background-color: #161616;
+  z-index: 2;
+  color: white;
+  position: relative;
+  margin-bottom: 8em;
+}
+.embold-text{
+  font-size: 1.5em;
+  font-family: bitter;
+}
+.medium-emboldment{
+  font-size: 1.3em;
+  font-family: bitter;
+}
+.shadow{
+  box-shadow: 0em 1em 2em 0em grey;
+}
+/*End of header design*/
+/*Body content*/
+body{
+background-color: white;
+}
+/*Carousel*/
+.border{
+  margin-top: -8em;
+}
+.carousel-inner .item img{
+height: 50em;
+width:100%;
+}
+/*Specifically affects the font of the description section of the carousel*/
+.carousal_text_font{
+  font-family: bitter;
+  color: black;
+  opacity: 1;
+}
+#box{
+  background-color: rgba(255,255,255,0.7);
+}
+/*Specifically affects the navagation bar style*/
+.float-right{
+  float: right;
+}
+.navbar-color{
+background-color: #0095FF;
+border-color: #0095FF;
+font-family: bitter;
+font-size: 1.1em;
+}
+.navbar-text{
+  color: black;
+}
+/*Affects Announcements style*/
+.background{
+  background-image: url('Images/computer-network-000016779847-100263771-primary.idge.jpg');
+  width: 100%;
+  height: 100%;
+  margin-top: -1.5em;
+}
+.content-title{
+  text-align: center;
+  font-size: 2em;
+  font-family: bitter;
+  color: black;  
+  padding-top: 0.5em;
+}
+#announcements{
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 100%;
+  height: 100%;
+}
+.entry-title{
+  width: 100%;
+  height: 3em;
+  background-color: rgba(3,3,4, 0.8);
+  color: white;
+  font-family: bitter;
+  text-align: center;
+  font-size: 1.4em;
+  padding-top: 1em;
+}
+.entry-title:hover{
+  background-color: black;
+  cursor: pointer;
+}
+.entry-content{
+  width: 100%;
+  height: 100%;
+  color: black;
+  font-family: bitter;
+  font-size: 1.2em;
+  background-color: rgba(255, 255, 255, 0.8);
+  cursor: auto;
+  padding-right: 1em;
+  padding-left: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  display: none;
+}
+.entry-content:hover{
+  background-color: white;
+}
+.active-entry{
+  display: block;
+}
+/*Calender content begins on the following lines*/
+#calendar-position{
+  position: relative;
+  margin-left: 15%;
+}
+.high-embold{
+  font-size: 3em;
+  color: black;
+  font-family: bitter;
+  text-align: center;
+}
+#calender-background{
+  background-color: cornflowerblue;
+}

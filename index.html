@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       
       <!--This connects my Sass/CSS file to the html-->
-      <link rel='stylesheet' type="text/css" href='home.css'/>
+      <link rel='stylesheet' type="text/css" href='style.css'/>
     
       <!-- Optional theme -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
@@ -21,7 +21,7 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
       
       <!--This connects my Javascript file -->
-      <script src="home.js"></script>
+      <script src="app.js"></script>
       
       <!-- Latest compiled and minified JavaScript -->
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -41,92 +41,159 @@
       <!--Body content-->
         <!--Caroussal Begins-->
         <div id="myCarousel" class="carousel slide border" data-ride="carousel" data-interval="4000">
+            
             <ol class="carousel-indicators">
-			  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			  
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 			  <li data-target="#myCarousel" data-slide-to="1" class=""></li>
 			  <li data-target="#myCarousel" data-slide-to="2"></li>
-		    </ol>
+		    
+            </ol>
             
             <div class="carousel-inner">
+              
               <div class="item active">
-                <img src="Images/COLLECTIVEPICTURES/Group_Photo.png" alt="Error" data-slide-to="0">
-                <div class="carousel-caption">
-		          <h3>Image 1</h3>
-		            <p>Image 1 Description</p>
-	            </div>
-              </div>
+                
+                <img src="Images/COLLECTIVEPICTURES/Group_Photo_fit.png" alt="Missing file Group_Photo_fit.png" data-slide-to="0">
+                <div class="carousel-caption" id="box"><!--Carousal Text input-->
+		          
+                  <h3 class="carousal_text_font">CyberPatriots 2014-2015 Teams</h3>
+		          <p class="carousal_text_font">Neteagles, Neteaglets, La Segundas, and ESMS Bulldogs</p>
+	            
+                </div>
+              
+            </div>
+              
               <div class="item">
+                
                 <img src="Images/Photos_CyberPatriot6/Finals_Cisco.jpg" alt="Error" data-slide-to="1">
+                <div class="carousel-caption" id="box"><!--Carousal Text input-->
+		          
+                  <h3 class="carousal_text_font">CyberPatriots 6 2013-2014 Finals</h3>
+		          <p class="carousal_text_font">Team Neteagles enters the Cisco Networking Challenge</p>
+	            
+                </div>
+                  
               </div>
+                
               <div class="item">
+                
                 <img src="Images/Photos_CyberPatriot6/Final_Group.jpg" data-slide-to="2">
+                <div class="carousel-caption" id="box"><!--Carousal Text input-->
+		          
+                  <h3 class="carousal_text_font">CyberPatriots 6 2013-2014 Finals Cookie Break</h3>
+		          <p class="carousal_text_font">Time to enjoy the Festivities!</p>
+                    
+	            </div>
+                  
               </div>
               <!-- Controls -->
               <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                
                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
+                  
               </a>
+                
               <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-			   <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			   
+               <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                <span class="sr-only">Next</span>
+                  
 	         </a>
+                
             </div>
+            
         </div>
          <!--Caroussal Ends-->
          <!--Navagation Bar Begins-->
-        <nav class="navbar navbar-default ">
+        <nav class="navbar navbar-default">
+            
           <div class="container-fluid navbar-color">
+              
             <div class="navbar-header navbar-color">
-              <button type="button" class="navbar-toggle collapsed navbar-color" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
+                
+              <button class="navbar-toggle navbar-color" data-toggle="collapse" data-target=".navHeaderCollapse">
+                
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
+                  
               </button>
               <a class="navbar-brand" href="#">ESHS Computer Science Club</a>
+            
             </div> 
-            <div class="collapse navbar-collapse navbar-color" id="float-right">
-              <ul class="nav navbar-nav navbar-color">
-                <li class="navbar-color"><a href="#" class="navbar-color">Zero-Robotics</a></li>
+            <div class="collapse navbar-collapse navbar-color navHeaderCollapse"> 
+              
+              <ul class="nav navbar-nav navbar-color float-right">
+                
+                <li><a href="#">Zero-Robotics</a></li>
                 <li><a href="#">CyberPatriots</a></li>
-                <li><a href="#">Capture the Flag's</a></li>
+                  
+                  <li><a href="#" >Capture the Flag's</a></li>
+                  
                 <li class="dropdown">
+                  
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                      <li><a href="#">Mentors/Coaches</a></li>
-                      <li><a href="#">Officers</a></li>
-                    </ul>
+                  <ul class="dropdown-menu">
+                    
+                    <li><a href="#">Mentors/Coaches</a></li>
+                    <li><a href="#">Officers</a></li>
+                      
+                  </ul>
+                    
                 </li>
                 <li><a href="#">Photo Gallery</a></li>
+                  
               </ul>
-            </div>  
-        </nav>
-        <div id = "announcements" class="container-fluid">
-            
-            <div class="row">
-                <div class="col-md-7">
-                    <h1  class="content-title">Announcements</h1>
-                  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default" style="margin-left: 1em">
-                      <div class="panel-heading" role="tab" id="headingOne">
-                        <h4 class="panel-title">
-                          <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Meeting 5/27 2:45-4:00
-                          </a>
-                       </h4>
-                       <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-      <div class="panel-body">
-        The meeting will be in the engineering lab all day long isnt that amazing
-                       </div>
-                     </div>
-                    </div>
-                  </div>    
-                </div>
+                
             </div>
-            <div class="col-md-5">
-              <iframe src="https://www.google.com/calendar/embed?src=eshscompsci%40gmail.com&ctz=America/Los_Angeles" style="border: 0; margin-left: -1em" width="500" height="600" frameborder="0" scrolling="no"></iframe>
+              
+        </nav>
+        <div class="container-fluid background">
+          <div class="row">
+            <div class="col-md-7">
+              <div id = "announcements"><!--Announcements container contains code for the announcements-->
+                <h1  class="content-title">Announcements</h1>
+                  <div class = "entry" data-type = "meow1">
+                    <div class = "entry-title">
+                      Announcements for the first time???
+                    </div>
+                    <div class = "entry-content">
+                      Hello this is just some text that looks nice on the website thanks adrian for all your work.
+                    </div>
+                  </div>
+                  <div class = "entry" data-type = "meow2">
+                    <div class = "entry-title">
+                      Second Announcements for the first time???
+                    </div>
+                    <div class = "entry-content">
+                      Second Hello this is just some text that looks nice on the website thanks adrian for all your work.
+                    </div>
+                  </div>
             </div>
         </div>
+        <div class="col-md-5">
+        helloa
+        </div>
+      </div>
+    </div>
+          <!--Calender Section-->
+        <div class="container-fluid">
+          
+          <div class= "row">
+            
+            <div class="col-md-12" id="calender-background">
+                <p class="high-embold">Club Calender</p>
+              <iframe src="https://www.google.com/calendar/embed?title=Computer%20Science%20Club%20Calender&amp;height=600&amp;wkst=1&amp;hl=en&amp;bgcolor=%2366cccc&amp;ctz=America%2FLos_Angeles" style=" border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no" id="calendar-position">
+              </iframe>
+            
+            </div>
+          
+          </div>
+            
+       </div>
          
     </body>
+        
   </html>
