@@ -3,4 +3,5 @@ $(document).ready(function(){
     $(".entry").on("click", function(){
       $(this).children(".entry-content").slideToggle().toggleClass("active-entry");
     });
+
 });

@@ -52,7 +52,7 @@
             
             <div class="carousel-inner">
               
-              <div class="item active">
+              <div class="item active carousel-image-size">
                 
                 <img src="Images/COLLECTIVEPICTURES/Group_Photo_fit.png" alt="Missing file Group_Photo_fit.png" data-slide-to="0">
                 <div class="carousel-caption" id="box"><!--Carousal Text input-->
@@ -64,7 +64,7 @@
               
             </div>
               
-              <div class="item">
+              <div class="item carousel-image-size">
                 
                 <img src="Images/Photos_CyberPatriot6/Finals_Cisco.jpg" alt="Error" data-slide-to="1">
                 <div class="carousel-caption" id="box"><!--Carousal Text input-->
@@ -76,7 +76,7 @@
                   
               </div>
                 
-              <div class="item">
+              <div class="item carousel-image-size">
                 
                 <img src="Images/Photos_CyberPatriot6/Final_Group.jpg" data-slide-to="2">
                 <div class="carousel-caption" id="box"><!--Carousal Text input-->
@@ -107,14 +107,15 @@
         </div>
          <!--Caroussal Ends-->
          <!--Navagation Bar Begins-->
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-color">
             
-          <div class="container-fluid navbar-color">
+          <div class="container-fluid">
               
-            <div class="navbar-header navbar-color">
+            <div class="navbar-header  navbar-color">
                 
-              <button class="navbar-toggle navbar-color" data-toggle="collapse" data-target=".navHeaderCollapse">
+             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navHeaderCollapse" aria-expanded="false">
                 
+                <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -123,9 +124,9 @@
               <a class="navbar-brand" href="#">ESHS Computer Science Club</a>
             
             </div> 
-            <div class="collapse navbar-collapse navbar-color navHeaderCollapse"> 
+            <div class="collapse navbar-collapse navHeaderCollapse"> 
               
-              <ul class="nav navbar-nav navbar-color float-right">
+              <ul class="nav navbar-nav float-right">
                 
                 <li><a href="#">Zero-Robotics</a></li>
                 <li><a href="#">CyberPatriots</a></li>
@@ -155,7 +156,7 @@
             <div class="col-md-7">
               <div id = "announcements"><!--Announcements container contains code for the announcements-->
                 <h1  class="content-title">Announcements</h1>
-                  <div class = "entry" data-type = "meow1">
+                  <div class = "entry">
                     <div class = "entry-title">
                       Announcements for the first time???
                     </div>
@@ -163,7 +164,7 @@
                       Hello this is just some text that looks nice on the website thanks adrian for all your work.
                     </div>
                   </div>
-                  <div class = "entry" data-type = "meow2">
+                  <div class = "entry">
                     <div class = "entry-title">
                       Second Announcements for the first time???
                     </div>
@@ -173,8 +174,11 @@
                   </div>
             </div>
         </div>
-        <div class="col-md-5">
-        helloa
+        <div class="col-md-5"><!--This is going to be Where are Mission Statement will be-->
+            <div id="mission-statement-box">
+                <span id="mission-statement-title">Mission Statement</span>
+                <p id="mission-statement-description">Hey there we want a great Future</p>
+            </div>
         </div>
       </div>
     </div>
@@ -193,6 +197,9 @@
           </div>
             
        </div>
+       <footer class="footer">
+         EL Segundo High School Computer Science Club 2015 
+       </footer>
          
     </body>
         

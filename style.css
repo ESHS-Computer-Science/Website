@@ -41,6 +41,9 @@ background-color: white;
 height: 50em;
 width:100%;
 }
+.carousel-image-size{
+  height: 41em;
+}
 /*Specifically affects the font of the description section of the carousel*/
 .carousal_text_font{
   font-family: bitter;
@@ -60,12 +63,26 @@ border-color: #0095FF;
 font-family: bitter;
 font-size: 1.1em;
 }
-.navbar-text{
+.nav li a{
   color: black;
+}
+.nav li a:hover{
+  color: black;
+  font-size: 1.1em;
+  background-color: #0787F7;
+}
+.navbar-brand{
+  color: black; 
+}
+.navbar-brand:hover{
+  color: black;
+  font-size: 1.1em;
+  background-color: #0787F7;
 }
 /*Affects Announcements style*/
 .background{
-  background-image: url('Images/computer-network-000016779847-100263771-primary.idge.jpg');
+  /*background-image: url('Images/computer-network-000016779847-100263771-primary.idge.jpg');*/
+  background-color: rgba(23, 23, 23, 1);
   width: 100%;
   height: 100%;
   margin-top: -1.5em;
@@ -81,6 +98,7 @@ font-size: 1.1em;
   background-color: rgba(255, 255, 255, 0.7);
   width: 100%;
   height: 100%;
+  margin-bottom: 1em;
 }
 .entry-title{
   width: 100%;
@@ -116,10 +134,36 @@ font-size: 1.1em;
 .active-entry{
   display: block;
 }
+/*Mission statement style*/
+#mission-statement-box{
+  width: 100%;
+  height: 100%;
+  margin-top: 1.2em;
+  background-color: rgba(159, 195, 197, 0.8);
+  padding: 1em 1em 1em 1em;
+}
+#mission-statement-title{
+  font-size: 3em;
+  font-family: bitter;
+  padding-left: 1em;
+  color: white;
+  text-shadow: 0.1em 0.1em grey; 
+}
+#mission-statement-description{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 2px solid rgba(1, 1, 1, 0.9);
+  border-radius: 0.5em;
+  padding: 1em 1em 1em 1em;
+  color: black;
+  font-size: 1.3em;
+}
 /*Calender content begins on the following lines*/
 #calendar-position{
   position: relative;
-  margin-left: 15%;
+  width: 100%;
+  margin-bottom: 1em;
 }
 .high-embold{
   font-size: 3em;
@@ -129,4 +173,15 @@ font-size: 1.1em;
 }
 #calender-background{
   background-color: cornflowerblue;
+}
+/*Footer for the lower portion of page*/
+.footer{
+  background-color: #485057;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  color: white;
+  font-family: bitter;
+  padding: 1em 1em 1em 1em;
 }
