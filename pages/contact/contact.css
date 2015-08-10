@@ -1,0 +1,76 @@
+#header-background{
+  width: 80%;
+  height: 8em;
+  z-index: 1;
+  float: right;
+  position: relative;
+}
+#header-title{
+  width: 20%;
+  height: 8em;
+  background-color: #161616;
+  z-index: 2;
+  color: white;
+  position: relative;
+  margin-bottom: 8em;
+}
+.embold-text{
+  font-size: 1.5em;
+  font-family: bitter;
+}
+.medium-emboldment{
+  font-size: 1.3em;
+  font-family: bitter;
+}
+/*Specifically affects the navagation bar style*/
+.float-right{
+  float: right;
+}
+.navbar-color{
+background-color: #0095FF;
+border-color: #0095FF;
+font-family: bitter;
+font-size: 1.1em;
+}
+.nav li a{
+  color: black;
+}
+.nav li a:hover{
+  color: black;
+  font-size: 1.1em;
+  background-color: #0787F7;
+}
+.navbar-brand{
+  color: black; 
+}
+.navbar-brand:hover{
+  color: black;
+  font-size: 1.1em;
+  background-color: #0787F7;
+}
+nav{
+  margin-top: -7.3em;
+}
+/*#Body style*/
+#body{
+  background-color: #1684D8;
+  width: 100%;
+  height: 100%;
+  margin-top: -1.5em;
+}
+#content{
+  background-color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+/*Footer style begins here*/
+.footer{
+  background-color: #485057;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  color: white;
+  font-family: bitter;
+  padding: 1em 1em 1em 1em;
+}

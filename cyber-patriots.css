@@ -1,0 +1,164 @@
+#header-background{
+  width: 80%;
+  height: 8em;
+  z-index: 1;
+  float: right;
+  position: relative;
+}
+#header-title{
+  width: 20%;
+  height: 8em;
+  background-color: #161616;
+  z-index: 2;
+  color: white;
+  position: relative;
+  margin-bottom: 8em;
+}
+.embold-text{
+  font-size: 1.5em;
+  font-family: bitter;
+}
+.medium-emboldment{
+  font-size: 1.3em;
+  font-family: bitter;
+}
+.text-center{
+  text-align: center;
+}
+/*border effects*/
+.border{
+  margin-top: -8em;
+}
+.carousel-inner .item img{
+height: 40em;
+width:100%;
+}
+.carousel-image-size{
+  height: 41em;
+}
+/*Specifically affects the font of the description section of the carousel*/
+.carousal_text_font{
+  font-family: bitter;
+  color: black;
+  opacity: 1;
+}
+#box{
+  background-color: rgba(255,255,255,0.7);
+}
+
+/*Specifically affects the navagation bar style*/
+.float-right{
+  float: right;
+}
+.navbar-color{
+background-color: #0095FF;
+border-color: #0095FF;
+font-family: bitter;
+font-size: 1.1em;
+}
+.nav li a{
+  color: black;
+}
+.nav li a:hover{
+  color: black;
+  font-size: 1.1em;
+  background-color: #0787F7;
+}
+.navbar-brand{
+  color: black; 
+}
+.navbar-brand:hover{
+  color: black;
+  font-size: 1.1em;
+  background-color: #0787F7;
+}
+nav{
+  margin-top: -1em;
+}
+/*#Body style*/
+#body{
+  background-color: #1684D8;
+  width: 100%;
+  height: 100%;
+  margin-top: -1.5em;
+}
+#content{
+  background-color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+/*Announcements style*/
+.background{
+  /*background-image: url('Images/computer-network-000016779847-100263771-primary.idge.jpg');*/
+  background-color: rgba(23, 23, 23, 1);
+  width: 100%;
+  height: 100%;
+  margin-top: -1.5em;
+}
+.content-title{
+  text-align: center;
+  font-size: 2em;
+  font-family: bitter;
+  color: black;  
+  padding-top: 0.5em;
+}
+#announcements{
+  background-color: rgba(2, 2, 2, 0.7);
+  width: 100%;
+  height: 100%;
+  margin-bottom: 1em;
+}
+.entry-title{
+  width: 100%;
+  height: 3em;
+  background-color: rgba(3,3,4, 0.8);
+  color: white;
+  font-family: bitter;
+  text-align: center;
+  font-size: 1.4em;
+  padding-top: 1em;
+}
+.entry-title:hover{
+  background-color: black;
+  cursor: pointer;
+}
+.entry-content{
+  width: 100%;
+  height: 100%;
+  color: black;
+  font-family: bitter;
+  font-size: 1.2em;
+  background-color: rgba(255, 255, 255, 0.8);
+  cursor: auto;
+  padding-right: 1em;
+  padding-left: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  display: none;
+}
+.entry-content:hover{
+  background-color: white;
+}
+.active-entry{
+  display: block;
+}
+/*Useful Links to Website*/
+.circle-container{
+  background-color: #0F9FFF;
+}
+#circle-size{
+  width: 100%;
+  height: 130%;
+  border-radius: 50%;
+}
+/*Footer style begins here*/
+.footer{
+  background-color: #485057;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  color: white;
+  font-family: bitter;
+  padding: 1em 1em 1em 1em;
+}

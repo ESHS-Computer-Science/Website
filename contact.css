@@ -1,0 +1,103 @@
+#header-background{
+  width: 80%;
+  height: 8em;
+  z-index: 1;
+  float: right;
+  position: relative;
+}
+#header-title{
+  width: 20%;
+  height: 8em;
+  background-color: #161616;
+  z-index: 2;
+  color: white;
+  position: relative;
+  margin-bottom: 8em;
+}
+.embold-text{
+  font-size: 1.5em;
+  font-family: bitter;
+}
+.medium-emboldment{
+  font-size: 1.3em;
+  font-family: bitter;
+}
+/*Specifically affects the navagation bar style*/
+.float-right{
+  float: right;
+}
+.navbar-color{
+background-color: #0095FF;
+border-color: #0095FF;
+font-family: bitter;
+font-size: 1.1em;
+}
+.nav li a{
+  color: black;
+}
+.nav li a:hover{
+  color: black;
+  font-size: 1.1em;
+  background-color: #0787F7;
+}
+.navbar-brand{
+  color: black; 
+}
+.navbar-brand:hover{
+  color: black;
+  font-size: 1.1em;
+  background-color: #0787F7;
+}
+nav{
+  margin-top: -7.3em;
+}
+/*#Body style*/
+#body{
+  background-color: #1684D8;
+  width: 100%;
+  height: 100%;
+  margin-top: -1.5em;
+}
+#content{
+  background-color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.title-large{
+  font-size: 3em;
+  font-family: bitter;
+  color: black;
+  text-shadow: 2px 2px grey;
+  text-align: center;
+/*Image on the left*/
+}
+#contact-image{
+  width:100%;
+  height: 100%;
+  border: 5px solid grey;
+  border-style: outset;
+  box-shadow:1em 1em 1em 0.5em grey;
+  margin-bottom: 2em;
+}
+/*text on the right*/
+.contact-title-text{
+  font-family: bitter;
+  color: black;
+  font-size: 2em;
+}
+.contact-text{
+   font-family: bitter;
+   color: black;
+   font-size: 1.2em;
+}
+/*Footer style begins here*/
+.footer{
+  background-color: #485057;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  color: white;
+  font-family: bitter;
+  padding: 1em 1em 1em 1em;
+}

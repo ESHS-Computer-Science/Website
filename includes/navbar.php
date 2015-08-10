@@ -12,7 +12,7 @@
                 <span class="icon-bar"></span>
                   
               </button>
-              <a class="navbar-brand" href="#">ESHS Computer Science Club</a>
+              <a class="navbar-brand" href="index.php">ESHS Computer Science Club</a>
             
             </div> 
             <div class="collapse navbar-collapse navHeaderCollapse"> 
@@ -20,7 +20,7 @@
               <ul class="nav navbar-nav float-right">
                 
                 <li><a href="#">Zero-Robotics</a></li>
-                <li><a href="#">CyberPatriots</a></li>
+                <li><a href="cybar-patriots.php">CyberPatriots</a></li>
                   
                   <li><a href="#" >Capture the Flag's</a></li>
                   
@@ -31,12 +31,12 @@
                     
                     <li><a href="#">Mentors/Coaches</a></li>
                     <li><a href="#">Officers</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="contact.php">Contact Us</a></li>
                       
                   </ul>
                     
                 </li>
-                <li><a href="#">Photo Gallery</a></li>
+                <li><a href="gellery.php">Photo Gallery</a></li>
                   
               </ul>
                 
