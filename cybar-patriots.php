@@ -108,7 +108,7 @@
             <div class = "row">
                 <div class = "col-md-12">
                   <div id = "announcements"><!--Announcements container contains code for the announcements-->
-                    <h1  class="content-title">Announcements</h1>
+                    <h1  class="content-title">CyberPatriots Announcements</h1>
                      <div class = "entry">
                        <div class = "entry-title">
                          Announcements for the first time???
@@ -128,19 +128,34 @@
                   </div>
                 </div>
             </div>
+          </div>
+          <div class = "container-fluid">
             <div class = "row">
-              <div class = "col-md-4">
-                  weerwerwe
+              <div class = "col-md-12 container-background">
+                <div class = "col-md-6">
+                  <p class = "competition-title">CyberPatriots Competition</p>
+                <p class = "competition-description">Hello this is the cyberpatriots comeptiotion description page text text text text text text text texttexttexttexttexttexttexttexttexttexttexttexttexttext s is the cyberpatriots comeptiotion description page text text text text text text text texttexttexttexttexttexttexttexttexttexttexttexttexttext s is the cyberpatriots comeptiotion description page text text text text text text text texttexttexttexttexttexttexttexttexttexttexttexttexttext</p>
+                </div>
+                <div class = "col-md-6">
+                   <p class = "competition-title">Links To Resources</p>
+                   <ul class = "link-list">
+                    <li class = "list-item well"><a href = "#" class = "link-style-text">CyberPatriots Website</a></li>
+                    <li class = "list-item well"><a href = "#"  class = "link-style-text">CyberPatriots Website</a></li>
+                    <li class = "list-item well"><a href = "#"  class = "link-style-text">CyberPatriots Website</a></li>
+                    <li class = "list-item well"><a href = "#"  class = "link-style-text">CyberPatriots Website</a></li>
+                  </ul>
+                </div>
               </div>
-              <div class = "col-md-5  circle-container">
-                  <img src = "Images/COLLECTIVEPICTURES/Group_Photo.JPG" id = "circle-size">
+            </div>
+            <div class = "row">
+              <div class = "col-md-12 lightgrey-background">
+                <div>
+                    <p class = "competition-title">Sponsors of CyberPatriots</p>
+                </div>
               </div>
-              <div class = "col-md-3">
-                  werwerwerw
-              </div>
-              
-
-         </div>
+            </div>
+          </div>
+          
        </div>
     </div>
     <!--footer region-->

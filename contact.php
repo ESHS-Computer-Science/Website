@@ -52,17 +52,25 @@
                       <h1 class = "contact-title-text">Contact Email:</h1> 
                       <p class = "contact-text">eshscompsci@gmail.com</p>
                       <p class = "contact-text">We will try to repond as soon as possible:</p>
-                      <form action="contact-form.php" method="post">
-                        <legend>Contact Form</legend>
-                        <fieldset>
-                          Firstname: <input type="text" name="firstname"><br><br>
-                          Lastname: <input type="text" name="lastname"><br><br>
-                          Subject: <input type="text" name="subject"><br><br>
-                          Email: <input type="text" name="email"><br><br>
-                          Enter Message: <textarea name="message"></textarea><br><br>
-                        <input type="submit" value="submit">
-                        </fieldset>
-                      </form>
+                      <form method = 'post' action = "contact-form.php">
+                        <div class = "form-group">
+                          <label for="fullName">Firstname Lastname</label>
+                          <input type="text" class="form-control" name="fullName" placeholder="Firstname Lastname">
+                        </div>
+                        <div class = "form-group">
+                          <label for="subject">Subject</label>
+                          <input type="text" class="form-control" name="subject" placeholder="Subject">
+                        </div>
+                        <div class = "form-group">
+                          <label for="email-form">Email Address</label>
+                          <input type="email" class="form-control" name="email-form" placeholder="Email">
+                        </div>
+                        <div class = "form-group">
+                          <label for="email-form">Message</label>
+                          <textarea class="form-control" rows="3" name = "message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>      
                     </div>
                   </div>
                 </div>  

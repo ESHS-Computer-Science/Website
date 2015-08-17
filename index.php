@@ -30,9 +30,10 @@
       <link rel="shortcut icon" href="favicon.ico"/>
     </head>
     <body>
-      
+      <header>
+        <img src="Images/bannereshscompsci.png" id="header-background" class="shadow">
+      </header>
       <?php include "includes/header.php"; ?>
-        
       <!--Body content-->
         <!--Caroussal Begins-->
         <div id="myCarousel" class="carousel slide border" data-ride="carousel" data-interval="4000">
@@ -140,33 +141,17 @@
           
           <div class= "row">
             
-            <div class="col-md-12" id="calender-background">
+            <div class="col-md-12">
                 <p class="high-embold">Club Calender</p>
-              <iframe src="https://www.google.com/calendar/embed?title=Computer%20Science%20Club%20Calender&amp;height=600&amp;wkst=1&amp;hl=en&amp;bgcolor=%2366cccc&amp;ctz=America%2FLos_Angeles" style=" border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no" id="calendar-position">
-              </iframe>
+                
+                <div id="upto-calendar-container-MkLO" class="upto-calendar-plugin"><script>!function(c,b,a){function d(h){var e=document.getElementById("upto-calendar-container-"+c),f=document.createElement("SCRIPT"),g="https://upto.com/js/plugin.js";f.onreadystatechange=function(){if(f.readyState==="loaded"||f.readyState==="complete"){f.onreadystatechange=null;h()}};f.onload=function(){h()};f.setAttribute("src",g);e.parentNode.insertBefore(f,e)}d(function(){upto.init(c)})}("MkLO");</script>
+                </div>
             
             </div>
           
           </div>
             
        </div>
-        <div class = "calendar">
-            <div class = "calendar-clock">
-              <div class = "calendar-day">
-                Today Is: <?php
-                  date_default_timezone_set('UTC');
-                  echo date("l");
-                  ?>
-                 <?php 
-                  echo date("F j Y");
-                  ?>
-              </div>
-              <p class="embold-text">Today's Events</p>
-              <div class = "calendar-events">
-                meow today
-              </div>
-            </div>
-        </div>
        <!--Footer begins here-->
        <?php include "includes/footer.php"; ?>
        <!--footer Ends here-->
